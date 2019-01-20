@@ -11,13 +11,13 @@
    <children>
       <HBox alignment="CENTER" layoutX="14.0" layoutY="39.0" spacing="10.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
          <children>
-            <TextField fx:id="input" />
-            <Button fx:id="button" mnemonicParsing="false" text="Przepisz!" />
+            <TextField fx:id="input" text="%name" />
+            <Button fx:id="button" mnemonicParsing="false" onAction="#handleButton" text="%click" />
          </children>
       </HBox>
       <HBox alignment="CENTER" layoutX="182.0" layoutY="142.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
          <children>
-            <Label fx:id="label" text="Label">
+            <Label fx:id="label">
                <font>
                   <Font name="Lato Black Italic" size="22.0" />
                </font>
